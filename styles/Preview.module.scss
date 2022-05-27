@@ -1,0 +1,11 @@
+.container {
+  @apply mx-auto py-10 text-xl text-neutral-700 leading-normal;
+}
+
+.incorrect {
+  @apply underline  decoration-red-300 decoration-2;
+}
+
+.correct {
+  @apply underline  decoration-green-300 decoration-2;
+}

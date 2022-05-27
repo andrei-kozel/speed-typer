@@ -1,0 +1,11 @@
+.container {
+  @apply flex justify-end items-center w-full;
+
+  svg {
+    @apply text-gray-300 transition-all duration-200 ease-in-out cursor-pointer mx-1;
+  }
+
+  svg:hover {
+    @apply text-gray-500;
+  }
+}

@@ -1,0 +1,9 @@
+.textarea {
+  @apply w-full bg-gray-100 focus:text-gray-700 focus:bg-gray-50 focus:border-blue-600 focus:outline-none p-2 resize-none rounded-sm focus-visible:outline-blue-300 focus-visible:outline-1 cursor-text;
+  content: "Start typing ...";
+}
+
+.textarea[contenteditable]:empty::before {
+  @apply text-gray-400;
+  content: "Start typing ...";
+}
